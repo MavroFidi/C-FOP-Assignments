@@ -7,20 +7,16 @@ void main() {
 	scanf("%d %c %d",&a,&b,&c);
 	
 	if (b == '+') {
-	d = a+c;
-	printf("%d+%d=%d\n",a,c,d);
+	printf("%d+%d=%d\n",a,c,a+c);
 	}
 	else if (b == '-') {
-	d = a-c;
-	printf("%d-%d=%d\n",a,c,d);
+	printf("%d-%d=%d\n",a,c,a-c);
 	}
 	else if (b == '*') {
-	d = a*c;
-	printf("%d*%d=%d\n",a,c,d);
+	printf("%d*%d=%d\n",a,c,a*c);
 	}
 	else if (b == '/') {
-	d = a/c;
-	printf("%d/%d=%d\n",a,c,d);
+	printf("%d/%d=%d\n",a,c,a/c);
 	}
 	else {
 	printf("Invalid Operator\n");
